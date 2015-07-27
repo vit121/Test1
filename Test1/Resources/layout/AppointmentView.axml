@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ffffffff">
+    <TextView
+        android:text="time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:textColor="#ff000000"
+        android:id="@+id/txtTime" />
+    <TextView
+        android:text="description description description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="12"
+        android:textColor="#808080"
+        android:id="@+id/txtDescription" />
+    <CheckBox
+        android:id="@+id/cbOccupied"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="30dp"
+        android:background="#ffe1e2d8" />
+</LinearLayout>

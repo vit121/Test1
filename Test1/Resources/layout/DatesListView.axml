@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffe1dada"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp">
+    <TextView
+        android:text="15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDate"
+        android:tag="scheduleDay"
+        style="@style/largeDate"
+        android:editable="false"
+        android:textIsSelectable="false"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:text="Wed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDayOfWeek"
+        android:tag="scheduleDay"
+        style="@style/smallDate"
+        android:editable="false"
+        android:textIsSelectable="false"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

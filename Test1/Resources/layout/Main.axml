@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="#ffffffff">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:background="#ffe0e0e0">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="132.5dp"
+            android:layout_height="109.5dp"
+            android:background="@android:drawable/sym_def_app_icon" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3">
+            <TextView
+                android:text="Консультации юриста"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff40b837"
+                android:layout_gravity="center" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="224.2dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_gravity="right"
+                android:text="Поможем в любой ситуации"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#ff000000" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout4"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="right">
+                <TextView
+                    android:text="Стоимость‏"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#ff977373" />
+                <TextView
+                    android:text="5000 руб"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#ff47e741" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <test1.EndlessScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/scroll">
+        <LinearLayout
+            android:id="@+id/datesLayout"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </test1.EndlessScrollView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/appointmentsListView"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="0dp"
+        android:background="#ffffffff" />
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:layout_margin="0dp"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginBottom="0dp" />
+</LinearLayout>

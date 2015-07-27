@@ -1,0 +1,12 @@
+Test1.MainActivity, Test1;md527169e3eaf077771b849b7d54b464677.MainActivity
+Test1.MainActivity, Test1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md527169e3eaf077771b849b7d54b464677.MainActivity
+Test1.MainActivity;md527169e3eaf077771b849b7d54b464677.MainActivity
+test1.MainActivity;md527169e3eaf077771b849b7d54b464677.MainActivity
+Test1.AppointmentAdapter, Test1;md527169e3eaf077771b849b7d54b464677.AppointmentAdapter
+Test1.AppointmentAdapter, Test1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md527169e3eaf077771b849b7d54b464677.AppointmentAdapter
+Test1.AppointmentAdapter;md527169e3eaf077771b849b7d54b464677.AppointmentAdapter
+test1.AppointmentAdapter;md527169e3eaf077771b849b7d54b464677.AppointmentAdapter
+Test1.EndlessScrollView, Test1;md527169e3eaf077771b849b7d54b464677.EndlessScrollView
+Test1.EndlessScrollView, Test1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md527169e3eaf077771b849b7d54b464677.EndlessScrollView
+Test1.EndlessScrollView;md527169e3eaf077771b849b7d54b464677.EndlessScrollView
+test1.EndlessScrollView;md527169e3eaf077771b849b7d54b464677.EndlessScrollView
