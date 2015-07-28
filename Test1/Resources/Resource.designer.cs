@@ -61,7 +61,43 @@ namespace Test1
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int border_set = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int dates_borders = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Feedback = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int Icon = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int Info = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int Map = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int Menu = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int round_image = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int save_button = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int save_button_normal = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int save_button_pressed = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int Schedule = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int summary_test_image = 2130837516;
 			
 			static Drawable()
 			{
@@ -76,44 +112,35 @@ namespace Test1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f07000f
-			public const int appointmentsListView = 2131165199;
+			// aapt resource value: 0x7f07000d
+			public const int appointmentsListView = 2131165197;
+			
+			// aapt resource value: 0x7f07000b
+			public const int bottom = 2131165195;
 			
 			// aapt resource value: 0x7f070002
 			public const int cbOccupied = 2131165186;
 			
-			// aapt resource value: 0x7f07000e
-			public const int datesLayout = 2131165198;
+			// aapt resource value: 0x7f070008
+			public const int content = 2131165192;
+			
+			// aapt resource value: 0x7f07000a
+			public const int datesLayout = 2131165194;
 			
 			// aapt resource value: 0x7f070007
-			public const int imageView1 = 2131165191;
+			public const int footer = 2131165191;
+			
+			// aapt resource value: 0x7f070006
+			public const int header = 2131165190;
 			
 			// aapt resource value: 0x7f070005
 			public const int linearLayout1 = 2131165189;
 			
-			// aapt resource value: 0x7f070006
-			public const int linearLayout2 = 2131165190;
-			
-			// aapt resource value: 0x7f070008
-			public const int linearLayout3 = 2131165192;
-			
-			// aapt resource value: 0x7f07000b
-			public const int linearLayout4 = 2131165195;
-			
-			// aapt resource value: 0x7f070010
-			public const int saveButton = 2131165200;
-			
-			// aapt resource value: 0x7f07000d
-			public const int scroll = 2131165197;
+			// aapt resource value: 0x7f07000c
+			public const int saveButton = 2131165196;
 			
 			// aapt resource value: 0x7f070009
-			public const int textView1 = 2131165193;
-			
-			// aapt resource value: 0x7f07000a
-			public const int textView2 = 2131165194;
-			
-			// aapt resource value: 0x7f07000c
-			public const int textView3 = 2131165196;
+			public const int scroll = 2131165193;
 			
 			// aapt resource value: 0x7f070003
 			public const int txtDate = 2131165187;
@@ -162,17 +189,47 @@ namespace Test1
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
-			
 			// aapt resource value: 0x7f040002
-			public const int default_description = 2130968578;
+			public const int app_name = 2130968578;
 			
-			// aapt resource value: 0x7f040003
-			public const int description_occupied = 2130968579;
+			// aapt resource value: 0x7f040007
+			public const int default_description = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int description_occupied = 2130968584;
+			
+			// aapt resource value: 0x7f04000d
+			public const int feedback = 2130968589;
 			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int header = 2130968576;
+			
+			// aapt resource value: 0x7f04000b
+			public const int info = 2130968587;
+			
+			// aapt resource value: 0x7f04000c
+			public const int map = 2130968588;
+			
+			// aapt resource value: 0x7f040009
+			public const int menu = 2130968585;
+			
+			// aapt resource value: 0x7f040001
+			public const int save = 2130968577;
+			
+			// aapt resource value: 0x7f04000a
+			public const int schedule = 2130968586;
+			
+			// aapt resource value: 0x7f040005
+			public const int summary_description_test = 2130968581;
+			
+			// aapt resource value: 0x7f040004
+			public const int summary_name_test = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int summary_price = 2130968579;
+			
+			// aapt resource value: 0x7f040006
+			public const int summary_price_value_test = 2130968582;
 			
 			static String()
 			{

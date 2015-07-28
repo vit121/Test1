@@ -1,0 +1,5 @@
+F:\Xamarin_Job\Test1\Test1\obj\Release\assemblies\Test1.dll
+F:\Xamarin_Job\Test1\Test1\obj\Release\assemblies\Mono.Android.dll
+F:\Xamarin_Job\Test1\Test1\obj\Release\assemblies\mscorlib.dll
+F:\Xamarin_Job\Test1\Test1\obj\Release\assemblies\System.Core.dll
+F:\Xamarin_Job\Test1\Test1\obj\Release\assemblies\System.dll

@@ -1,0 +1,69 @@
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/linearLayout1" android:background="#ffffffff" xmlns:android="http://schemas.android.com/apk/res/android"><RelativeLayout android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:background="#00B8B9" android:gravity="center"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/header" android:textColor="#fff" android:textSize="20sp" /></RelativeLayout><RelativeLayout android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:gravity="center" android:background="@drawable/border_set"><LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="10dp" android:paddingBottom="5dp"><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight=".20"><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:background="@drawable/menu" /><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/menu" android:textColor="#B5B5B5" android:textSize="10dp" /></LinearLayout><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight=".20"><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:background="@drawable/schedule" /><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/schedule" android:textColor="#B5B5B5" android:textSize="10dp" /></LinearLayout><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight=".20"><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:background="@drawable/info" /><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/info" android:textColor="#B5B5B5" android:textSize="10dp" /></LinearLayout><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight=".20"><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:background="@drawable/map" /><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/map" android:textColor="#B5B5B5" android:textSize="10dp" /></LinearLayout><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight=".20"><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:background="@drawable/feedback" /><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/feedback" android:textColor="#B5B5B5" android:textSize="10dp" /></LinearLayout></LinearLayout></RelativeLayout><RelativeLayout android:id="@+id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer" android:layout_below="@id/header" android:gravity="center"><RelativeLayout android:id="@+id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:background="#F0B8B9" android:gravity="center" /><RelativeLayout android:id="@+id/bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:gravity="center" android:padding="5dp"><Button android:id="@+id/saveButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/save" android:textColor="#fff" android:background="@drawable/save_button" /></RelativeLayout><RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/summary" android:layout_below="@id/bottom" android:gravity="center" android:background="#F0B8B9"><md527169e3eaf077771b849b7d54b464677.EndlessScrollView android:minWidth="25px" android:minHeight="25px" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/scroll"><LinearLayout android:id="@+id/datesLayout" android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" /></md527169e3eaf077771b849b7d54b464677.EndlessScrollView><ListView android:layout_width="match_parent" android:layout_height="fill_parent" android:id="@+id/appointmentsListView" android:background="#ffffffff" android:layout_marginBottom="40dp" /></RelativeLayout></RelativeLayout><!--
+   
+   <LinearLayout
+					android:orientation="horizontal"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="match_parent"
+					android:layout_height="124.0dp"
+					android:id="@+id/linearLayout2"
+					android:background="#ffe0e0e0">
+					<ImageView
+					    android:id="@+id/imageView1"
+					    android:layout_width="129.3dp"
+					    android:layout_height="112.0dp"
+					    android:background="@android:drawable/sym_def_app_icon" />
+					<LinearLayout
+					    android:orientation="vertical"
+					    android:minWidth="25px"
+					    android:minHeight="25px"
+					    android:layout_width="wrap_content"
+					    android:layout_height="144.0dp"
+					    android:id="@+id/linearLayout3">
+					    <TextView
+					        android:text="Консультации юриста"
+					        android:textAppearance="?android:attr/textAppearanceLarge"
+					        android:id="@+id/textView1"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:textColor="#ff40b837"
+					        android:layout_gravity="center" />
+					    <TextView
+					        android:textAppearance="?android:attr/textAppearanceSmall"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:id="@+id/textView2"
+					        android:layout_gravity="right"
+					        android:text="Поможем в любой ситуации"
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginTop="10dp"
+					        android:textColor="#ff000000" />
+					    <LinearLayout
+					        android:orientation="horizontal"
+					        android:minWidth="25px"
+					        android:minHeight="25px"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:id="@+id/linearLayout4"
+					        android:layout_gravity="right"
+					        android:layout_marginBottom="0.0dp">
+					        <TextView
+					            android:text="Стоимость‏"
+					            android:textAppearance="?android:attr/textAppearanceSmall"
+					            android:id="@+id/textView3"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:layout_marginRight="5dp"
+					            android:textColor="#ff977373" />
+					        <TextView
+					            android:text="5000 руб"
+					            android:textAppearance="?android:attr/textAppearanceSmall"
+					            android:id="@+id/textView3"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:textColor="#ff47e741" />
+					    </LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+    
+        --></RelativeLayout>

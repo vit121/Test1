@@ -68,10 +68,23 @@
     <AndroidResource Include="Resources\layout\DatesListView.axml" />
     <AndroidResource Include="Resources\layout\AppointmentView.axml" />
     <AndroidResource Include="Resources\values\StyleSheet.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Menu.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Schedule.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Map.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Info.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Feedback.png" />
+    <AndroidResource Include="Resources\drawable\border_set.xml" />
+    <AndroidResource Include="Resources\drawable\save_button.xml" />
+    <AndroidResource Include="Resources\drawable\save_button_normal.xml" />
+    <AndroidResource Include="Resources\drawable\save_button_pressed.xml" />
+    <AndroidResource Include="Resources\drawable\round_image.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\summary_test_image.png" />
+    <AndroidResource Include="Resources\drawable\dates_borders.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="CustomAdapters\" />
+    <Folder Include="Resources\drawable\" />
   </ItemGroup>
 </Project>

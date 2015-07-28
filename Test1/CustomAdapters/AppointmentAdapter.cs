@@ -56,7 +56,7 @@ namespace Test1
 
 			CheckBox cbOccupied = row.FindViewById<CheckBox> (Resource.Id.cbOccupied);
 
-			txtTime.Text = items [position].time.ToString ("H:mm");
+			txtTime.Text = items [position].time.ToString ("H.mm");
 
 			txtDescription.Text = items [position].Description;
 			cbOccupied.Checked = false;

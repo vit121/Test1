@@ -2,12 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_21_x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Test1\MainActivity.cs">
     <Files>
-      <File FileName="Test1\MainActivity.cs" Line="94" Column="47" />
+      <File FileName="Test1\MainActivity.cs" Line="10" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Test1 AndroidDesignerPreferredDevice="Nexus 4" AndroidDeviceId-Debug="LGOTMSe62a88b4" />
+  <MonoDevelop.Ide.ItemProperties.Test1 AndroidDesignerPreferredDevice="Nexus 5" AndroidDeviceId-Debug="emulator-5554" />
 </Properties>
