@@ -3,6 +3,8 @@ using Android.Widget;
 using System.Collections.Generic;
 using Android.Content;
 using Android.Views;
+using ScheduleDataGenerator.Model;
+using Android.Content.Res;
 
 namespace Test1
 {
@@ -56,9 +58,15 @@ namespace Test1
 
 			CheckBox cbOccupied = row.FindViewById<CheckBox> (Resource.Id.cbOccupied);
 
-			txtTime.Text = items [position].time.ToString ("H.mm");
+			txtTime.Text = items [position].Time.ToString ("H.mm");
+			AppointmentItem appointment = items[position];
 
-			txtDescription.Text = items [position].Description;
+			if (appointment.Occupied) {
+				txtDescription.Text = context.Resources.GetString (Resource.String.description_occupied);
+			}
+			else
+				txtDescription.Text = GetDescriptionByHour(appointment.Time.Hour);
+
 			cbOccupied.Checked = false;
 
 			if (!items [position].Occupied) {
@@ -93,6 +101,34 @@ namespace Test1
 				}
 			}
 		}
+
+		private string GetDescriptionByHour(int hour)
+		{
+			string[] descriptions = context.Resources.GetStringArray (Resource.Array.appointment_decriptions); 
+
+			string result = "";
+			switch (hour) {
+			case 9:
+				result = descriptions [0];
+				break;
+			case 10:
+				result = descriptions [1];
+				break;
+			case 13:
+				result = descriptions [2];
+				break;
+			case 17:
+				result = descriptions [3];
+				break;
+			case 18:
+				result = descriptions [4];
+				break;
+			default:
+				result = context.Resources.GetString (Resource.String.default_description) + " ";
+				break;
+			}
+			return result;
+		}	
 	}
 }
 

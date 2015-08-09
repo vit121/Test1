@@ -1,5 +1,5 @@
-F:\Xamarin_Job\Test1\Test1\obj\Release\assemblies\Test1.dll
-F:\Xamarin_Job\Test1\Test1\obj\Release\assemblies\Mono.Android.dll
-F:\Xamarin_Job\Test1\Test1\obj\Release\assemblies\mscorlib.dll
-F:\Xamarin_Job\Test1\Test1\obj\Release\assemblies\System.Core.dll
-F:\Xamarin_Job\Test1\Test1\obj\Release\assemblies\System.dll
+F:\Xamarin_Job\Test1\Test1\obj\Release\android\assets\Test1.dll
+F:\Xamarin_Job\Test1\Test1\obj\Release\android\assets\Mono.Android.dll
+F:\Xamarin_Job\Test1\Test1\obj\Release\android\assets\mscorlib.dll
+F:\Xamarin_Job\Test1\Test1\obj\Release\android\assets\System.Core.dll
+F:\Xamarin_Job\Test1\Test1\obj\Release\android\assets\System.dll

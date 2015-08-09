@@ -6,8 +6,8 @@
 
 	<string name="summary_price">Стоимость</string>
 
-	<string name="summary_name_test">Пафос Паллас</string>
-	<string name="summary_description_test">Замечательный отель на берегу Моря. Всё включено.</string>
+	<string name="summary_name_test">FirstName LastName</string>
+	<string name="summary_description_test">Description text is here.</string>
 	<string name="summary_price_value_test">12500 руб</string>
 
     <string-array name="appointment_decriptions">

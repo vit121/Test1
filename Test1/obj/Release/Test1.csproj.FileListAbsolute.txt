@@ -27,3 +27,6 @@ F:\Xamarin_Job\Test1\Test1\obj\Release\res\drawable\save_button_normal.xml
 F:\Xamarin_Job\Test1\Test1\obj\Release\res\drawable\save_button_pressed.xml
 F:\Xamarin_Job\Test1\Test1\obj\Release\R.cs.flag
 F:\Xamarin_Job\Test1\Test1\obj\Release\uploadflags.txt
+F:\Xamarin_Job\Test1\Test1\obj\Release\res\drawable\round_image.xml
+F:\Xamarin_Job\Test1\Test1\obj\Release\res\drawable-hdpi\summary_test_image.png
+F:\Xamarin_Job\Test1\Test1\obj\Release\res\drawable\dates_borders.xml

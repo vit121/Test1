@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Test1\Test1.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_21_x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test1\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Test1\MainActivity.cs" Line="10" Column="24" />
+      <File FileName="Test1\MainActivity.cs" Line="167" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

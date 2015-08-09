@@ -140,7 +140,8 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="5dp">
+                android:padding="5dp"
+                android:id="@+id/hostSummary">
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="wrap_content"
@@ -164,14 +165,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="#00B8B9"
-                        android:layout_gravity="left" />
+                        android:layout_gravity="left"
+                        android:id="@+id/name" />
                     <TextView
                         android:textSize="12dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="left"
                         android:text="@string/summary_description_test"
-                        android:textColor="#000" />
+                        android:textColor="#000"
+                        android:id="@+id/description" />
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -223,7 +226,8 @@
                         android:text="@string/summary_price_value_test"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#00B8B9" />
+                        android:textColor="#00B8B9"
+                        android:id="@+id/description" />
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout

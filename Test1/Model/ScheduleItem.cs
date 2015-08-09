@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Test1
 {
+	/*
 	public class ScheduleItem 
 	{
 		public DateTime day;
@@ -12,5 +13,6 @@ namespace Test1
 			appointments = new List<AppointmentItem> ();	
 		}
 	}
+	*/
 }
 

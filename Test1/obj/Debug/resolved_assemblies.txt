@@ -1,1 +1,3 @@
 F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\Test1.dll
+F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\ScheduleDataGenerator.dll
+F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\TestConsole2.dll

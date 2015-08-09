@@ -2,6 +2,7 @@
 
 namespace Test1
 {
+	/*
 	//===============================
 	public class AppointmentItem 
 	{
@@ -9,5 +10,6 @@ namespace Test1
 		public string Description;
 		public bool Occupied { get; set; }
 	}
+	*/
 }
 
