@@ -1,7 +1,7 @@
-Test1.MainActivity, Test1;md527169e3eaf077771b849b7d54b464677.MainActivity
-Test1.MainActivity, Test1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md527169e3eaf077771b849b7d54b464677.MainActivity
-Test1.MainActivity;md527169e3eaf077771b849b7d54b464677.MainActivity
-test1.MainActivity;md527169e3eaf077771b849b7d54b464677.MainActivity
+Test1.Droidt.MainActivity, Test1;md52085d1d03777d3a7f436f2ac45171483.MainActivity
+Test1.Droidt.MainActivity, Test1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52085d1d03777d3a7f436f2ac45171483.MainActivity
+Test1.Droidt.MainActivity;md52085d1d03777d3a7f436f2ac45171483.MainActivity
+test1.droidt.MainActivity;md52085d1d03777d3a7f436f2ac45171483.MainActivity
 Test1.AppointmentAdapter, Test1;md527169e3eaf077771b849b7d54b464677.AppointmentAdapter
 Test1.AppointmentAdapter, Test1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md527169e3eaf077771b849b7d54b464677.AppointmentAdapter
 Test1.AppointmentAdapter;md527169e3eaf077771b849b7d54b464677.AppointmentAdapter

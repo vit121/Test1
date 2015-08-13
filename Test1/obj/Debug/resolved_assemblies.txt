@@ -1,3 +1,7 @@
 F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\Test1.dll
+F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\Mono.Android.dll
+F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\mscorlib.dll
 F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\ScheduleDataGenerator.dll
-F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\TestConsole2.dll
+F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\System.Core.dll
+F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\System.dll
+F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\System.Xml.dll

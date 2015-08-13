@@ -81,7 +81,6 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"Test1.dll",
 		"ScheduleDataGenerator.dll",
-		"TestConsole2.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

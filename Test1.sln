@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test1", "Test1\Test1.csproj", "{3BB4910E-FC6D-49E1-956E-368FAAC7E218}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleDataGenerator", "ScheduleDataGenerator\ScheduleDataGenerator.csproj", "{42A88371-5DBF-461A-BC61-B083F752CB52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeAnAppointmentConsole", "MakeAnAppointmentConsole\MakeAnAppointmentConsole.csproj", "{5E810104-CB82-44C7-901E-412C035CBE16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +18,14 @@ Global
 		{3BB4910E-FC6D-49E1-956E-368FAAC7E218}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{3BB4910E-FC6D-49E1-956E-368FAAC7E218}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB4910E-FC6D-49E1-956E-368FAAC7E218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A88371-5DBF-461A-BC61-B083F752CB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A88371-5DBF-461A-BC61-B083F752CB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A88371-5DBF-461A-BC61-B083F752CB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A88371-5DBF-461A-BC61-B083F752CB52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E810104-CB82-44C7-901E-412C035CBE16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E810104-CB82-44C7-901E-412C035CBE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E810104-CB82-44C7-901E-412C035CBE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E810104-CB82-44C7-901E-412C035CBE16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
