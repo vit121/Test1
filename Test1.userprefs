@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 ﻿<Properties StartupItem="Test1_IOS/Test1_IOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_21" />
-=======
-﻿<Properties StartupItem="Test1\Test1.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_21_x86" />
->>>>>>> origin/master
   <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

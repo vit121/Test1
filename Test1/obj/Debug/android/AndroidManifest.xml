@@ -2,16 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.test_1">
   <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="19" />
   <application android:label="Schedule Appointment" android:theme="@android:style/Theme.NoTitleBar" android:name="mono.android.app.Application" android:debuggable="true">
-<<<<<<< HEAD
     <activity android:icon="@drawable/icon" android:screenOrientation="portrait" android:name="md52085d1d03777d3a7f436f2ac45171483.MainActivity" />
-=======
-    <activity android:icon="@drawable/icon" android:screenOrientation="portrait" android:name="md52085d1d03777d3a7f436f2ac45171483.MainActivity">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
->>>>>>> origin/master
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.test_1.mono.MonoRuntimeProvider.__mono_init__" />
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
