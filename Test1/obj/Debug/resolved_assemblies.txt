@@ -1,3 +1,7 @@
-F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\Test1.dll
-F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\ScheduleDataGenerator.dll
-F:\Xamarin_Job\Test1\Test1\obj\Debug\assemblies\TestConsole2.dll
+/Users/Vi-MacBook/Projects/Test1/Test1/obj/Debug/assemblies/Test1.dll
+/Users/Vi-MacBook/Projects/Test1/Test1/obj/Debug/assemblies/System.dll
+/Users/Vi-MacBook/Projects/Test1/Test1/obj/Debug/assemblies/System.Xml.dll
+/Users/Vi-MacBook/Projects/Test1/Test1/obj/Debug/assemblies/Mono.Android.dll
+/Users/Vi-MacBook/Projects/Test1/Test1/obj/Debug/assemblies/ScheduleDataGenerator.dll
+/Users/Vi-MacBook/Projects/Test1/Test1/obj/Debug/assemblies/System.Core.dll
+/Users/Vi-MacBook/Projects/Test1/Test1/obj/Debug/assemblies/mscorlib.dll

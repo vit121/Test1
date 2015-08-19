@@ -1,0 +1,4 @@
+F:\Xamarin_Job\Test1\ScheduleDataGenerator\bin\Debug\ScheduleDataGenerator.dll
+F:\Xamarin_Job\Test1\ScheduleDataGenerator\bin\Debug\ScheduleDataGenerator.pdb
+F:\Xamarin_Job\Test1\ScheduleDataGenerator\obj\Debug\ScheduleDataGenerator.dll
+F:\Xamarin_Job\Test1\ScheduleDataGenerator\obj\Debug\ScheduleDataGenerator.pdb

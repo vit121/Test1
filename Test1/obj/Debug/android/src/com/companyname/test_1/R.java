@@ -21,12 +21,13 @@ public final class R {
         public static final int info=0x7f020004;
         public static final int map=0x7f020005;
         public static final int menu=0x7f020006;
-        public static final int round_image=0x7f020007;
-        public static final int save_button=0x7f020008;
-        public static final int save_button_normal=0x7f020009;
-        public static final int save_button_pressed=0x7f02000a;
-        public static final int schedule=0x7f02000b;
-        public static final int summary_test_image=0x7f02000c;
+        public static final int monoandroidsplash=0x7f020007;
+        public static final int round_image=0x7f020008;
+        public static final int save_button=0x7f020009;
+        public static final int save_button_normal=0x7f02000a;
+        public static final int save_button_pressed=0x7f02000b;
+        public static final int schedule=0x7f02000c;
+        public static final int summary_test_image=0x7f02000d;
     }
     public static final class id {
         public static final int appointmentsListView=0x7f070010;
@@ -69,11 +70,12 @@ public final class R {
         public static final int summary_price_value_test=0x7f040006;
     }
     public static final class style {
-        public static final int largeActiveDate=0x7f060001;
-        public static final int largeDate=0x7f060000;
-        public static final int largeWeekendDate=0x7f060004;
-        public static final int smallActiveDate=0x7f060003;
-        public static final int smallDate=0x7f060002;
-        public static final int smallWeekendDate=0x7f060005;
+        public static final int Mono_Android_Theme_Splash=0x7f060000;
+        public static final int largeActiveDate=0x7f060002;
+        public static final int largeDate=0x7f060001;
+        public static final int largeWeekendDate=0x7f060005;
+        public static final int smallActiveDate=0x7f060004;
+        public static final int smallDate=0x7f060003;
+        public static final int smallWeekendDate=0x7f060006;
     }
 }

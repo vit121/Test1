@@ -42,11 +42,8 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="TestConsole2">
-      <HintPath>C:\Users\VI\Documents\Visual Studio 2012\Projects\TestConsole2\TestConsole2\obj\Debug\TestConsole2.dll</HintPath>
-    </Reference>
     <Reference Include="ScheduleDataGenerator">
-      <HintPath>C:\Users\VI\Documents\Visual Studio 2012\Projects\ScheduleDataGenerator\ScheduleDataGenerator\obj\Debug\ScheduleDataGenerator.dll</HintPath>
+      <HintPath>..\ScheduleDataGenerator\obj\Debug\ScheduleDataGenerator.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -87,7 +84,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="Model\" />
     <Folder Include="CustomAdapters\" />
     <Folder Include="Resources\drawable\" />
   </ItemGroup>

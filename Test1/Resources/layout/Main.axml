@@ -263,7 +263,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/save"
-                        android:textColor="#fff" />
+                        android:textColor="#32CD32" />
                 </RelativeLayout>
                 <ListView
                     android:layout_width="match_parent"
